@@ -20,6 +20,7 @@ build:
   script_env:
     - PYO3_PYTHON={{ PYTHON }}
   number: 3
+  skip: true  # [py>=3.14]
 
 requirements:
   build:
